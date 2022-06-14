@@ -1,0 +1,199 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte1{
+    display: flex;
+    justify-content:center;
+}
+
+button{
+    border-radius: 30px;
+    background-color: rgb(238, 58, 58);
+    width: 140px;
+    height: 40px;
+    color:white; 
+    font-size: 20px;
+    border-color: rgb(237, 70, 70);
+
+}
+
+.parte2{
+    flex-direction: row-reverse ;
+    display: flex;
+    justify-content:center;
+}
+
+.container{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+
+.texto-encima{  
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    color:rgb(255, 255, 255);
+    font-size: 150px;
+} 
+
+
+footer {
+    background: linear-gradient(to right,rgb(239, 67, 48), rgb(101,2,158));
+    position: center;
+    width: 100%; 
+}
+
+.footer-container{
+    display:flex;
+    height: 200px;
+    justify-content:space-around;
+   
+    
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container .PRIMERO{
+
+color: white;
+
+}
+
+.footer-container .SEGUNDO{
+    color:white;
+  
+}
+
+
+.footer-container .TERCERO{
+   
+    color:white;
+   
+}
+.footer-container .CUARTO{
+    
+    color:white;
+    
+    
+}
+
+.PRIMERO li{
+    line-height: 30PX;
+}
+.PRIMERO ul{
+    line-height: 50PX;
+}
+
+.SEGUNDO li{
+    line-height: 30PX;
+}
+.SEGUNDO ul{
+    line-height: 50PX;
+}
+.TERCERO li{
+    line-height: 30PX;
+}
+.TERCERO ul{
+    line-height: 50PX;
+}
+.CUARTO li{
+    line-height: 30PX;
+}
+.CUARTO ul{
+    line-height: 50PX;
+}
+
+.linea{
+    background-color:white;
+    width: 1600px;
+    padding-top:1px;
+    margin-left: 150px;
+    
+    
+}
+
+.fotter2{
+    display: flex;
+    flex-direction: column;
+     color: white;
+     display:flex;
+     justify-content: space-around;
+     
+}
+.footer .texto{
+display: flex;
+justify-content:space-between;
+
+}
+
+.titulo1{
+    background: linear-gradient(to right,rgb(235,81,64), rgb(101,2,158), rgb(64,1,101), rgb(64,1,101), rgb(64,1,101));
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.imagen-final{
+    background-image: url("image/john-raptis.png");
+    height: 80vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+.image2{
+    display: flex;
+    flex-direction:column;
+    
+}
+.parte1 button{
+    margin-top: 28px;
+    margin-right: 300px;
+
+}
+.boton2 {
+    margin-top:28px;
+}
+.boton3 {
+    margin-top:90px;
+    border-color: rgb(255, 255, 255);
+}
+.parrafo2 {
+    margin-right: 300px;
+    transform: translate(0%,60%);
+}
+.clase {
+    font-size: 30px;
+    transform: translate(-)
+}
+.texto p{
+    display: flex;
+    
+}
+.texto p{
+    margin: 10px 0px 0px 150px;
+    
+}
+
+.texto .correo{
+    margin: 10px 150px 0px 0px;
+    
+}
